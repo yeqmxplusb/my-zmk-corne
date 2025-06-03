@@ -139,7 +139,7 @@
         Num {
             bindings = <
   &kp GRAVE  &kp N7  &kp N8   &kp N9    &kp N0       &trans  &trans     &trans     &trans    &trans
-  &kp APOS   &kp N4  &kp N5   &kp N6    &kp EQUAL    &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
+  &kp SEMI   &kp N4  &kp N5   &kp N6    &kp EQUAL    &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
   &kp LBKT   &kp N1  &kp N2   &kp N3    &kp RBKT     &trans  &trans     &trans     &trans    &trans
                      &kp DOT  &kp BSLH  &kp MINUS    &trans  &trans     &trans
             >;
@@ -147,10 +147,10 @@
 
         Sym {
             bindings = <
-  &kp TILDE          &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR          &trans  &trans     &trans     &trans    &trans
-  &kp DOUBLE_QUOTES  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS          &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
-  &kp LBRC           &kp EXCL  &kp AT     &kp POUND  &kp RBRC          &trans  &trans     &trans     &trans    &trans
-                               &trans     &kp PIPE   &kp UNDERSCORE    &trans  &trans     &trans
+  &kp TILDE  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR          &trans  &trans     &trans     &trans    &trans
+  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS          &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
+  &kp LBRC   &kp EXCL  &kp AT     &kp POUND  &kp RBRC          &trans  &trans     &trans     &trans    &trans
+                       &trans     &kp PIPE   &kp UNDERSCORE    &trans  &trans     &trans
             >;
         };
 
